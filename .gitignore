@@ -57,3 +57,4 @@ scl_transport/etl/
 
 localdb
 outputdb
+/.idea/

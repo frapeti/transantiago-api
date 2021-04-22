@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="578c7d01-eb4f-468f-8447-8adcf9761f40" name="Default Changelist" comment="update .gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/98f911fa-3313-4cea-8c0d-d2fd75f6f3ea/storage_v2/_src_/database/scltransit.N6LZpg/schema/public.abK9xQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/transantiago-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GTFS.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scl_transport/api/utils/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/scl_transport/api/utils/predictor.py" afterDir="false" />
     </list>
@@ -38,7 +61,25 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Start Server">
+  <component name="RunManager" selected="Python.Load GTFS to DB">
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Load GTFS to DB" type="PythonConfigurationType" factoryName="Python">
       <module name="transantiago-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +104,7 @@
         </ENTRIES>
       </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scl_transport/gtfsdb/bin/gtfsdb-load" />
-      <option name="PARAMETERS" value="--database_url postgresql://postgres:502MeGusta@35.239.42.10/scltransit --is_geospatial https://www.dtpm.cl/descargas/gtfs/GTFS.zip" />
+      <option name="PARAMETERS" value="--database_url postgresql://postgres:&lt;pass&gt;@35.239.42.10/scltransit --is_geospatial https://www.dtpm.cl/descargas/gtfs/GTFS.zip" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -121,7 +162,7 @@
       <workItem from="1618944743651" duration="522000" />
       <workItem from="1618951756506" duration="330000" />
       <workItem from="1619009081721" duration="9063000" />
-      <workItem from="1619097714900" duration="513000" />
+      <workItem from="1619097714900" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="update .gitignore">
       <created>1619030358601</created>
